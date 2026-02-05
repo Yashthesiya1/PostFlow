@@ -1,0 +1,62 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#gradient1)"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Glow Effects -->
+  <circle cx="300" cy="200" r="150" fill="#6366f1" opacity="0.2" filter="blur(60px)"/>
+  <circle cx="900" cy="600" r="150" fill="#8b5cf6" opacity="0.2" filter="blur(60px)"/>
+  
+  <!-- Main Container -->
+  <rect x="100" y="100" width="1000" height="600" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- URL Bar -->
+  <rect x="150" y="150" width="900" height="80" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <text x="180" y="200" font-family="Inter, sans-serif" font-size="24" fill="#9ca3af">https://example.com/blog-post</text>
+  <rect x="920" y="170" width="100" height="40" rx="8" fill="url(#gradient2)"/>
+  <text x="945" y="197" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white">Scrape</text>
+  
+  <!-- AI Processing Indicator -->
+  <circle cx="600" cy="330" r="40" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="3"/>
+  <circle cx="600" cy="330" r="30" fill="rgba(139,92,246,0.2)" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="585" y="340" font-family="Inter, sans-serif" font-size="28" fill="white">🧠</text>
+  
+  <!-- Social Media Previews -->
+  <!-- Twitter/X Card -->
+  <rect x="150" y="420" width="280" height="240" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(99,102,241,0.3)" stroke-width="2"/>
+  <text x="170" y="455" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="white">𝕏 Twitter</text>
+  <rect x="170" y="475" width="240" height="150" rx="8" fill="rgba(255,255,255,0.05)"/>
+  <text x="180" y="505" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">Generated tweet content...</text>
+  <text x="180" y="530" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">with hashtags and emojis</text>
+  <text x="370" y="645" font-family="Inter, sans-serif" font-size="12" fill="#6366f1">280/280</text>
+  
+  <!-- LinkedIn Card -->
+  <rect x="460" y="420" width="280" height="240" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(99,102,241,0.3)" stroke-width="2"/>
+  <text x="480" y="455" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="white">in LinkedIn</text>
+  <rect x="480" y="475" width="240" height="150" rx="8" fill="rgba(255,255,255,0.05)"/>
+  <text x="490" y="505" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">Professional post with</text>
+  <text x="490" y="530" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">insights and analysis</text>
+  <circle cx="700" cy="635" r="8" fill="#10b981"/>
+  <text x="715" y="640" font-family="Inter, sans-serif" font-size="12" fill="#10b981">Ready</text>
+  
+  <!-- Instagram Card -->
+  <rect x="770" y="420" width="280" height="240" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(99,102,241,0.3)" stroke-width="2"/>
+  <text x="790" y="455" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="white">📷 Instagram</text>
+  <rect x="790" y="475" width="240" height="150" rx="8" fill="rgba(255,255,255,0.05)"/>
+  <text x="800" y="505" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">Caption with engaging</text>
+  <text x="800" y="530" font-family="Inter, sans-serif" font-size="14" fill="#d1d5db">hooks and CTAs</text>
+  <circle cx="1010" cy="635" r="8" fill="#10b981"/>
+  <text x="1025" y="640" font-family="Inter, sans-serif" font-size="12" fill="#10b981">Ready</text>
+</svg>
